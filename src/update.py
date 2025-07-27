@@ -2,7 +2,7 @@ import requests
 from packaging import version
 
 CURRENT_VERSION = "1.0.0"
-UPDATE_SERVER_URL = "http://localhost:5000/api/version"
+UPDATE_SERVER_URL = "http://api.zyb.unote.tbit.top/api/version"
 GITHUB_RELEASE_URL = "https://github.com/GHhuang1057/ZYBEasyRoot/releases"
 
 def check_for_updates():
