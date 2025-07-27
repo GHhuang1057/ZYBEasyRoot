@@ -12,6 +12,26 @@
 * 本项目是一个作业帮玩机工具箱,包含了一些常用的工具,如root,解锁bootloader,提取boot镜像,修补boot镜像等。
 * 本项目基于GPL V3.0协议发布,请严格遵守协议。
 
+# 请TMD仔细看看各个机型的README!别在各种地方问那些**问题
+### 各个机型的README
+[T20](T20_README.md)
+[T20Pro](T20Pro_README.md)
+
+### 运行项目
+* 请确保电脑系统版本为Windows10以上，安装Python3.9.x及以上版本。
+* 如果您的电脑支持winget，则运行项目目录下run.bat即可
+~~~
+# 下载项目
+git clone https://github.com/GHhuang1057/ZYBEasyRoot.git
+cd ZYBEasyRoot
+# 安装python依赖库
+pip install -r requirements.txt
+# 运行
+python main.py
+~~~
+
+
+
 ### 界面演示
 ![界面演示](example.png)
 
