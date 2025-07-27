@@ -1,5 +1,4 @@
 import os
-from .src.menu import list_menu
 
 thisdir = os.path.dirname(os.path.abspath(__file__))
 
